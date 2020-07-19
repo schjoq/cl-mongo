@@ -119,7 +119,7 @@ Insert document into the database.
 
 Print the current contents.
 
-       (pp (iter (db.find "foo" 'all)))
+       (pp (iter (db.find "foo" :all)))
 
        {
        "_id" -> objectid(4B5CF28970DFF196A75FE1F0)
